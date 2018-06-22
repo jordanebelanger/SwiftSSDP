@@ -39,3 +39,11 @@ public enum SSDPMessageAnnoucement: String {
     /// For NOTIFY ByeBye multicast broadcasts, used in NTS
     case byeBye = "ssdp:byebye"
 }
+
+final class Weak<T: AnyObject> {
+    weak var object: T?
+    
+    init(_ object: T) {
+        self.object = object
+    }
+}

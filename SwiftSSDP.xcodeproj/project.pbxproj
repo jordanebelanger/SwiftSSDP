@@ -32,16 +32,12 @@
 		3C8F9C791E78FD0600EC88A2 /* SSDPUPnP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F9C5A1E78FD0600EC88A2 /* SSDPUPnP.swift */; };
 		3C8F9C7A1E78FD0600EC88A2 /* SSDPUPnP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8F9C5A1E78FD0600EC88A2 /* SSDPUPnP.swift */; };
 		3C9049AA1E7908F6001A8C1C /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049A71E7908F6001A8C1C /* CocoaAsyncSocket.framework */; };
-		3C9049AC1E7908F6001A8C1C /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049A91E7908F6001A8C1C /* Weak.framework */; };
 		3C9049B01E790901001A8C1C /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049AD1E790901001A8C1C /* CocoaAsyncSocket.framework */; };
-		3C9049B21E790901001A8C1C /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049AF1E790901001A8C1C /* Weak.framework */; };
-		3C9049B61E790913001A8C1C /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049B41E790913001A8C1C /* Weak.framework */; };
 		3CF898021E80C3DF00DDE04F /* SwiftAbstractLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF898011E80C3DF00DDE04F /* SwiftAbstractLogger.framework */; };
 		3CF898041E80C3EA00DDE04F /* SwiftAbstractLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF898031E80C3EA00DDE04F /* SwiftAbstractLogger.framework */; };
 		3CF898061E80C3F100DDE04F /* SwiftAbstractLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF898051E80C3F100DDE04F /* SwiftAbstractLogger.framework */; };
 		F72F0CC5203FDDBD00759FB4 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049B71E79091D001A8C1C /* CocoaAsyncSocket.framework */; };
 		F72F0CC6203FDDC400759FB4 /* SwiftAbstractLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF897FF1E80C3D700DDE04F /* SwiftAbstractLogger.framework */; };
-		F72F0CC7203FDDC900759FB4 /* Weak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9049B91E79091D001A8C1C /* Weak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,12 +58,8 @@
 		3C8F9C7C1E78FD1300EC88A2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3C8F9C7D1E78FD1300EC88A2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		3C9049A71E7908F6001A8C1C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		3C9049A91E7908F6001A8C1C /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = Carthage/Build/Mac/Weak.framework; sourceTree = "<group>"; };
 		3C9049AD1E790901001A8C1C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/tvOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		3C9049AF1E790901001A8C1C /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = Carthage/Build/tvOS/Weak.framework; sourceTree = "<group>"; };
-		3C9049B41E790913001A8C1C /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = Carthage/Build/watchOS/Weak.framework; sourceTree = "<group>"; };
 		3C9049B71E79091D001A8C1C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
-		3C9049B91E79091D001A8C1C /* Weak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Weak.framework; path = Carthage/Build/iOS/Weak.framework; sourceTree = "<group>"; };
 		3CF897FF1E80C3D700DDE04F /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAbstractLogger.framework; path = Carthage/Build/iOS/SwiftAbstractLogger.framework; sourceTree = "<group>"; };
 		3CF898011E80C3DF00DDE04F /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAbstractLogger.framework; path = Carthage/Build/watchOS/SwiftAbstractLogger.framework; sourceTree = "<group>"; };
 		3CF898031E80C3EA00DDE04F /* SwiftAbstractLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAbstractLogger.framework; path = Carthage/Build/tvOS/SwiftAbstractLogger.framework; sourceTree = "<group>"; };
@@ -82,7 +74,6 @@
 			files = (
 				F72F0CC5203FDDBD00759FB4 /* CocoaAsyncSocket.framework in Frameworks */,
 				F72F0CC6203FDDC400759FB4 /* SwiftAbstractLogger.framework in Frameworks */,
-				F72F0CC7203FDDC900759FB4 /* Weak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +82,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF898021E80C3DF00DDE04F /* SwiftAbstractLogger.framework in Frameworks */,
-				3C9049B61E790913001A8C1C /* Weak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +91,6 @@
 			files = (
 				3C9049B01E790901001A8C1C /* CocoaAsyncSocket.framework in Frameworks */,
 				3CF898041E80C3EA00DDE04F /* SwiftAbstractLogger.framework in Frameworks */,
-				3C9049B21E790901001A8C1C /* Weak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +100,6 @@
 			files = (
 				3C9049AA1E7908F6001A8C1C /* CocoaAsyncSocket.framework in Frameworks */,
 				3CF898061E80C3F100DDE04F /* SwiftAbstractLogger.framework in Frameworks */,
-				3C9049AC1E7908F6001A8C1C /* Weak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +172,6 @@
 				3CF898031E80C3EA00DDE04F /* SwiftAbstractLogger.framework */,
 				3CF898011E80C3DF00DDE04F /* SwiftAbstractLogger.framework */,
 				3CF897FF1E80C3D700DDE04F /* SwiftAbstractLogger.framework */,
-				3C9049B91E79091D001A8C1C /* Weak.framework */,
-				3C9049B41E790913001A8C1C /* Weak.framework */,
-				3C9049AF1E790901001A8C1C /* Weak.framework */,
-				3C9049A91E7908F6001A8C1C /* Weak.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -308,7 +292,7 @@
 		3C8F9C111E78FB0300EC88A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				TargetAttributes = {
 					3C8F9C1B1E78FB3000EC88A2 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -389,7 +373,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftAbstractLogger.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Weak.framework",
 			);
 			name = "Carthage Copy Frameworks";
 			outputPaths = (
@@ -424,7 +407,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/tvOS/CocoaAsyncSocket.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/SwiftAbstractLogger.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/Weak.framework",
 			);
 			name = "Carthage Copy Frameworks";
 			outputPaths = (
@@ -442,7 +424,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/Mac/CocoaAsyncSocket.framework",
 				"$(SRCROOT)/Carthage/Build/Mac/SwiftAbstractLogger.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/Weak.framework",
 			);
 			name = "Carthage Copy Frameworks";
 			outputPaths = (
@@ -517,11 +498,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -553,11 +536,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;

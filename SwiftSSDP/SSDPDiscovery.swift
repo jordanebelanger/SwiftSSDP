@@ -9,7 +9,6 @@
 import Foundation
 import CocoaAsyncSocket
 import SwiftAbstractLogger
-import Weak
 
 //
 // MARK: - Protocols
