@@ -218,7 +218,6 @@
 				3C8F9C181E78FB3000EC88A2 /* Frameworks */,
 				3C8F9C191E78FB3000EC88A2 /* Headers */,
 				3C8F9C1A1E78FB3000EC88A2 /* Resources */,
-				3C9049BD1E790982001A8C1C /* Carthage Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -365,23 +364,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C9049BD1E790982001A8C1C /* Carthage Copy Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftAbstractLogger.framework",
-			);
-			name = "Carthage Copy Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-			showEnvVarsInLog = 0;
-		};
 		3CF898071E80C58700DDE04F /* Carthage Copy Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
